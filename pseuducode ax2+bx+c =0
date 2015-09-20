@@ -1,0 +1,13 @@
+start
+Input (a,b,c)
+d=(B*B)-(4*A*C)
+if (d=0)
+then x1=(-b/2*a)
+else if (d>0)
+then x1=(-b+sqrt(d))/2*a
+     x2=(-b -sqrt(d))/2*a
+else if (d<0)
+then "akar imajiner"
+end if
+write (x1,x2)
+end
